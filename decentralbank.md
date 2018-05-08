@@ -15,8 +15,13 @@ The bank uses deposited assets and equity to expand and contract the money suppl
 
 ##Technical Specifications
 
-Equity Contract:
-monetary_policy(address, currency_number, interest_rate, bond_rate) 
+Equity holders interact with the equity smart contract by calling the monetary_policy() function to vote for new policy at each voting period X. The function takes 3 arguments. The address variable designates the bank branch the policy is referring to. The currency_policy variable is a positive or negative integer which designates whether the branch should expand (if positive) or retract (if negative) the currency token and by how much. The interest_rate is the interest paid to depositors of that branch's assets. 
+
+monetary_policy(address, currency_policy, interest_rate)
+
+Equity holders can also change the bond_rate variable during each voting period X which denotes the interest rate paid to bond holders across all branchs in the network. 
+
+bond_policy(bond_rate)
 
 
 In order for the bank's money to be truly fungible, bank branches across all ledgers need to be able to communicate with one another in a purely trustless fashion using atomic swaps and state channel communications. 
@@ -24,6 +29,7 @@ In order for the bank's money to be truly fungible, bank branches across all led
 A sample Ethereum branch is shown below with comments. This contract accepts ETH and prints currency. Each branch can handle a single on-chain cryptographic asset and is opened by equity holders. 
 
 Example Ethereum branch:
+
 -----constants-----
  
 reserve_ratio = 20 // 20% of total ETH deposited into this branch must always remain in the contract
@@ -32,11 +38,13 @@ bond_interest_rate = 1 // 1%, the current interest rate paid yearly to bond toke
 
 -----public functions-----
 
+
 deposit_ETH() // deposit any amount of ETH
 withdraw_ETH() // withdraw your amount of ETH at any time (provided the bank has enough funds)
 collect_interest() // withdraw your earned interest in currency until the current block
 
 -----banking functions-----
+
 
 set_interest_rate() // equity holders call this function to increase or decrease interest_rate accordingly 
 set_bond_rate() // equity holders call this function to increase or decrease bond_interest_rate accordingly
