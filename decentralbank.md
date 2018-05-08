@@ -17,9 +17,11 @@ The bank uses deposited assets and equity to expand and contract the money suppl
 
 Equity holders interact with the equity smart contract by calling the monetary_policy() function to vote for new policy at each voting period X. The function takes 3 arguments. The address variable designates the bank branch the policy is referring to. The currency_policy variable is a positive or negative integer which designates whether the branch should expand (if positive) or retract (if negative) the currency token and by how much. The interest_rate is the interest paid to depositors of that branch's assets. 
 
-monetary_policy(address, currency_policy, interest_rate)
-
 Equity holders can also change the bond_rate variable during each voting period X which denotes the interest rate paid to bond holders across all branchs in the network. 
+
+Example Equity holder contract: 
+
+monetary_policy(address, currency_policy, interest_rate)
 
 bond_policy(bond_rate)
 
@@ -61,7 +63,7 @@ retract_currency() // equity holders call this function with argument 1, 2, or 3
 
 ## Discussion 
 
-A decentralized bank which holds only cryptographic assets was not possible before the proliferation of general compute ledgers which created an environment for many different types of on-chain assets. Additionally, advancements in trustless interblockchain/inter-ledger communication was required before a decentralized banking entity could hold many assets across different ledgers, all controlled by the bank's shareholder tokens. 
+A decentralized bank which holds only cryptographic assets was not possible before the proliferation of general compute ledgers which created an environment for many different types of on-chain assets. Additionally, advancements in trustless interblockchain/inter-ledger communication was required before a decentralized banking network could hold many assets across different ledgers, all controlled by the bank's equity tokenholders. Additionally, with the practical implementation of atomic swaps and cross-chain trustless state verification, it is possible for the stable bank currency to be fungible across many different legders which it is printed on.  
 
 Uncompromosing censorship resistance is the defining characteristic of this network. The cryptographic technology used to produce this peer-to-peer financial system would need to be continuously updated to remain on the bleeding-edge so as to supercede nation-state level regulation and control in order for the system to produce a world-scale banking market. Otherwise, its chief utility proposition is dubious compared to centralized, nationalized central banking systems. 
 
