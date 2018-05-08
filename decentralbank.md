@@ -1,19 +1,19 @@
 # Decentral Bank: A Peer-to-Peer Central Bank and Stable Currency System
 S.R.A. Lee (ETH: 0x104c664DFAE84f43932198e3c553F783F7bA8b80)
 
-##Abstract
+## Abstract
 
 We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on distributed ledger networks. Decentral Bank equity holders vote on what actions to perform during open market operations. The bank can accept deposits in cryptographic assets, pay interest to depositors, and print its own cryptographic fiat currency. Depository branches of this world bank are smart contracts on general compute ledger platforms such as Ethereum.
 
 To expand the money supply, any bank branch can print money and auction it off for assets. To contract the money supply, the bank can sell assets, print bonds, or print equity tokens to sell for money. Equity token holders decide the interest rate and when to expand or contract the bank's money supply. The rational, economic goal of this banking network is to accrue the most profitable assets and stabilize its printed currency to reach worldwide ubiquity. 
 
-##Overview
+## Overview
 
 A decentral bank is a completely "on-chain" (residing on a distributed ledger platform) network of bank branches that accept deposits in assets and pays interest to depositors in printed currency. Each branch of a bank is a smart contract that resides on a particular distributed ledger/blockchain platform and accepts a variety of deposits and prints currency. The smart contract listens for the current state of other bank branches' smart contracts to trustlessly communicate between branches using atomic swaps and other cross-ledger protocols. 
 
 The bank uses deposited assets and equity to expand and contract the money supply to achieve stability of the decentral bank notes it prints. Bank equity holders vote on the interest rates paid for deposits of different assets, changing the rates depending on risk and the liabilties of the bank. The bank can sell these assets to contract the currency supply at any time if necessary. Since depositors have the right to withdraw their asset at any time (like a normal bank), it is prudent to keep verifiable reserve requirements that are programmed into the smart contract of each branch's code. This way, depositors can transparently audit the branch at any time. The bank can also print bond tokens which pay out a consistent coupon plus interest agreed by equity holders. This provides another mechanism to retract the supply of currency by offering riskless future returns denominated in the decentral bank currency. 
 
-##Technical Specifications
+## Technical Specifications
 
 Equity holders interact with the equity smart contract by calling the monetary_policy() function to vote for new policy at each voting period X. The function takes 3 arguments. The address variable designates the bank branch the policy is referring to. The currency_policy variable is a positive or negative integer which designates whether the branch should expand (if positive) or retract (if negative) the currency token and by how much. The interest_rate is the interest paid to depositors of that branch's assets. 
 
@@ -59,7 +59,7 @@ retract_currency() // equity holders call this function with argument 1, 2, or 3
  2 print new equity and auction for currency
  3 auction bond tokens for currency
 
-##Discussion 
+## Discussion 
 
 A decentralized bank which holds only cryptographic assets was not possible before the proliferation of general compute ledgers which created an environment for many different types of on-chain assets. Additionally, advancements in trustless interblockchain/inter-ledger communication was required before a decentralized banking entity could hold many assets across different ledgers, all controlled by the bank's shareholder tokens. 
 
