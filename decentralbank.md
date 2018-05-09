@@ -34,18 +34,20 @@ Equity holders interact with the equity smart contract by calling the monetary_p
 Equity holders can also change the bond_rate variable during each voting period X which denotes the interest rate paid to bond holders across all branchs in the network. 
 
 Example Equity holder contract: 
-`
+
+```
 monetary_policy(address, currency_policy, interest_rate)
 
 bond_policy(bond_rate)
-`
+```
 
 In order for the bank's money to be truly fungible, bank branches across all ledgers need to be able to communicate with one another in a purely trustless fashion using atomic swaps and state channel communications. 
 
 A sample Ethereum branch is shown below with comments. This contract accepts ETH and prints currency. Each branch can handle a single on-chain cryptographic asset and is opened by equity holders. 
 
 Example Ethereum branch:
-`
+
+```
 -----constants-----
  
 reserve_ratio = 20 // 20% of total ETH deposited into this branch must always remain in the contract
@@ -74,7 +76,8 @@ retract_currency() // equity holders call this function with argument 1, 2, or 3
  1 auction ETH for currency
  2 print new equity and auction for currency
  3 auction bond tokens for currency
-`
+```
+
 ## Discussion 
 
 A decentralized bank which holds only cryptographic assets was not possible before the proliferation of general compute ledgers which created an environment for many different types of on-chain assets. Additionally, advancements in trustless interblockchain/inter-ledger communication was required before a decentralized banking network could hold many assets across different ledgers, all controlled by the bank's equity tokenholders. Additionally, with the practical implementation of atomic swaps and cross-chain trustless state verification, it is possible for the stable bank currency to be fungible across many different legders which it is printed on.  
