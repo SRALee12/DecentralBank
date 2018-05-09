@@ -9,17 +9,17 @@ To expand the money supply, any bank branch can print money and auction it off f
 
 ## Definitions 
 
-Decentral bank: A network of bank branches that functions like a central bank.
+**Decentral bank:** A network of bank branches that functions like a central bank.
 
-Decentral open market operations (DOMO): The activities that equity holders agree to take which expands or retracts the decentral bank network's currency supply. Activities include changing the interest rate on different deposits, changing the bond interest rate, expanding or contracting the currency supply by buying or selling assets and deposits. 
+**Decentral open market operations (DOMO):** The activities that equity holders agree to take which expands or retracts the decentral bank network's currency supply. Activities include changing the interest rate on different deposits, changing the bond interest rate, expanding or contracting the currency supply by buying or selling assets and deposits. 
 
-Decentral bank branch (DBB): A smart contract on a general compute ledger (ie: Ethereum) which accepts deposits in an asset (ie: ETH) and can expand or retract the currency supply. 
+**Decentral bank branch (DBB):** A smart contract on a general compute ledger (ie: Ethereum) which accepts deposits in an asset (ie: ETH) and can expand or retract the currency supply. 
 
-Currency: A token which serves as a unit of account and medium of exchange printed by decentral bank branches. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes, so that they can be used as practical money. All currency is fungible between different bank branches.   
+**Currency:** A token which serves as a unit of account and medium of exchange printed by decentral bank branches. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes, so that they can be used as practical money. All currency is fungible between different bank branches.   
 
-Bond: A debt instrument printed by bank branches which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). Bonds printed at any bank branch print out at the same global rate decided by equity holders.
+**Bond:** A debt instrument printed by bank branches which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). Bonds printed at any bank branch print out at the same global rate decided by equity holders.
 
-Decentral equity: A token in the decentral bank network which gives right of proportional ownership to holders. Equity holders vote on all aspects of open market operations in the network including the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, and which assets to buy when printing new currency. 
+**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. Equity holders vote on all aspects of open market operations in the network including the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, and which assets to buy when printing new currency. 
 
 ## Overview
 
@@ -34,18 +34,18 @@ Equity holders interact with the equity smart contract by calling the monetary_p
 Equity holders can also change the bond_rate variable during each voting period X which denotes the interest rate paid to bond holders across all branchs in the network. 
 
 Example Equity holder contract: 
-
+`
 monetary_policy(address, currency_policy, interest_rate)
 
 bond_policy(bond_rate)
-
+`
 
 In order for the bank's money to be truly fungible, bank branches across all ledgers need to be able to communicate with one another in a purely trustless fashion using atomic swaps and state channel communications. 
 
 A sample Ethereum branch is shown below with comments. This contract accepts ETH and prints currency. Each branch can handle a single on-chain cryptographic asset and is opened by equity holders. 
 
 Example Ethereum branch:
-
+`
 -----constants-----
  
 reserve_ratio = 20 // 20% of total ETH deposited into this branch must always remain in the contract
@@ -74,7 +74,7 @@ retract_currency() // equity holders call this function with argument 1, 2, or 3
  1 auction ETH for currency
  2 print new equity and auction for currency
  3 auction bond tokens for currency
-
+`
 ## Discussion 
 
 A decentralized bank which holds only cryptographic assets was not possible before the proliferation of general compute ledgers which created an environment for many different types of on-chain assets. Additionally, advancements in trustless interblockchain/inter-ledger communication was required before a decentralized banking network could hold many assets across different ledgers, all controlled by the bank's equity tokenholders. Additionally, with the practical implementation of atomic swaps and cross-chain trustless state verification, it is possible for the stable bank currency to be fungible across many different legders which it is printed on.  
