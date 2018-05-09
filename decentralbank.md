@@ -15,7 +15,7 @@ Bank branch: A smart contract on a general compute ledger (ie: Ethereum) which a
 
 Currency: A token which serves as a unit of account and medium of exchange printed by bank branches. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes. All currency is fungible between different bank branches.   
 
-Bond: A debt instrument printed by bank which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). 
+Bond: A debt instrument printed by bank branches which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). 
 
 ## Overview
 
