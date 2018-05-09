@@ -1,5 +1,6 @@
 # Decentral Bank: A Peer-to-Peer Central Bank and Stable Currency System
 S.R.A. Lee (ETH: 0x104c664DFAE84f43932198e3c553F783F7bA8b80)
+
 sralee@yandex.com
 
 ## Abstract
