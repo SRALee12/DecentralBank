@@ -7,6 +7,16 @@ We propose a purely permissionless, borderless "world bank" which functions anal
 
 To expand the money supply, any bank branch can print money and auction it off for assets. To contract the money supply, the bank can sell assets, print bonds, or print equity tokens to sell for money. Equity token holders decide the interest rate and when to expand or contract the bank's money supply. The rational, economic goal of this banking network is to accrue the most profitable assets and stabilize its printed currency to reach worldwide ubiquity. 
 
+## Definitions 
+
+Decentral bank: A network of bank branches that functions like a central bank.
+
+Bank branch: A smart contract on a general compute ledger (ie: Ethereum) which accepts deposits in an asset (ie: ETH) and can expand or retract the currency supply. 
+
+Currency: A token which serves as a unit of account and medium of exchange printed by bank branches. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes. All currency is fungible between different bank branches.   
+
+Bond: A debt instrument printed by bank which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). 
+
 ## Overview
 
 A decentral bank is a completely "on-chain" (residing on a distributed ledger platform) network of bank branches that accept deposits in assets and pays interest to depositors in printed currency. Each branch of a bank is a smart contract that resides on a particular distributed ledger/blockchain platform and accepts a variety of deposits and prints currency. The smart contract listens for the current state of other bank branches' smart contracts to trustlessly communicate between branches using atomic swaps and other cross-ledger protocols. 
