@@ -19,7 +19,7 @@ To expand the money supply, any bank branch can print money and auction it off f
 
 **Bond:** A debt instrument printed by bank branches which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). Bonds printed at any bank branch print out at the same global rate decided by equity holders.
 
-**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. Equity holders vote on all aspects of open market operations in the network including the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, and which assets to buy when printing new currency. 
+**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. Equity holders vote on all aspects of open market operations in the network including the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, and which assets to buy when printing new currency. Equity holders can delegate out their voting rights to pools or committees that might be better knowledgeable or run programmatic scripts that vote for different operations on their behalf.  
 
 ## Overview
 
