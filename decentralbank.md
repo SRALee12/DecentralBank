@@ -11,11 +11,15 @@ To expand the money supply, any bank branch can print money and auction it off f
 
 Decentral bank: A network of bank branches that functions like a central bank.
 
-Bank branch: A smart contract on a general compute ledger (ie: Ethereum) which accepts deposits in an asset (ie: ETH) and can expand or retract the currency supply. 
+Decentral open market operations (DOMO): The activities that equity holders agree to take which expands or retracts the decentral bank network's currency supply. Activities include changing the interest rate on different deposits, changing the bond interest rate, expanding or contracting the currency supply by buying or selling assets and deposits. 
 
-Currency: A token which serves as a unit of account and medium of exchange printed by bank branches. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes. All currency is fungible between different bank branches.   
+Decentral bank branch (DBB): A smart contract on a general compute ledger (ie: Ethereum) which accepts deposits in an asset (ie: ETH) and can expand or retract the currency supply. 
 
-Bond: A debt instrument printed by bank branches which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). 
+Currency: A token which serves as a unit of account and medium of exchange printed by decentral bank branches. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes, so that they can be used as practical money. All currency is fungible between different bank branches.   
+
+Bond: A debt instrument printed by bank branches which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). Bonds printed at any bank branch print out at the same global rate decided by equity holders.
+
+Decentral equity: A token in the decentral bank network which gives right of proportional ownership to holders. Equity holders vote on all aspects of open market operations in the network including the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, and which assets to buy when printing new currency. 
 
 ## Overview
 
