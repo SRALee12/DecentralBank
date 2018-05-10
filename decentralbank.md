@@ -11,7 +11,7 @@ To expand the money supply, any bank branch can print money and auction it off f
 
 ## Definitions 
 
-**Decentral bank:** A network of bank branches that functions like a central bank.
+**Decentral bank:** A network of bank branches that accept deposits, print a stable currency, and conduct open market operations decided by the network's equity holders. 
 
 **Decentral open market operations (DOMO):** The activities that equity holders agree to take which expands or retracts the decentral bank network's currency supply. Activities include changing the interest rate on different deposits, changing the bond interest rate, expanding or contracting the currency supply by buying or selling assets and deposits. 
 
