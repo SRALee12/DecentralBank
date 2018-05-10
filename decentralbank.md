@@ -27,7 +27,7 @@ To expand the money supply, any bank branch can print money and auction it off f
 
 A decentral bank is a completely "on-chain" (residing on a distributed ledger platform) network of bank branches that accept deposits in assets and pays interest to depositors in printed currency. Each branch of a bank is a smart contract that resides on a particular distributed ledger/blockchain platform and accepts a variety of deposits and prints currency. The smart contract listens for the current state of other bank branches' smart contracts to trustlessly communicate between branches using atomic swaps and other cross-ledger protocols. 
 
-The bank uses deposited assets and equity to expand and contract the money supply to achieve stability of the decentral bank notes it prints. Bank equity holders vote on the interest rates paid for deposits of different assets, changing the rates depending on risk and the liabilties of the bank. The bank can sell these assets to contract the currency supply at any time if necessary. Since depositors have the right to withdraw their asset at any time (like a normal bank), it is prudent to keep verifiable reserve requirements that are programmed into the smart contract of each branch's code. This way, depositors can transparently audit the branch at any time. The bank can also print bond tokens which pay out a consistent coupon plus interest agreed by equity holders. This provides another mechanism to retract the supply of currency by offering riskless future returns denominated in the decentral bank currency. 
+The bank uses deposited assets and equity to expand and contract the money supply to achieve stability of the decentral bank notes it prints. Bank equity holders vote on the interest rates paid for deposits of different assets, changing the rates depending on risk and the liabilties of the bank. The bank can sell these assets to contract the currency supply at any time if necessary. Since depositors have the right to withdraw their asset at any time (like a normal bank), it is prudent to keep verifiable reserve requirements that are programmed into the smart contract of each branch's code. This way, depositors can transparently audit the branch at any time so that the fractional reserve nature of each branch is public and auditable. The bank can also print bond tokens which pay out a consistent coupon plus interest agreed by equity holders. This provides another mechanism to retract the supply of currency by offering riskless future returns denominated in the decentral bank currency. 
 
 ## Technical Specifications
 
@@ -45,7 +45,7 @@ bond_policy(bond_rate)
 
 In order for the bank's money to be truly fungible, bank branches across all ledgers need to be able to communicate with one another in a purely trustless fashion using atomic swaps and state channel communications. 
 
-A sample Ethereum branch is shown below with comments. This contract accepts ETH and prints currency. Each branch can handle a single on-chain cryptographic asset and is opened by equity holders. 
+A sample pseudo-code Ethereum branch is shown below with comments. This contract accepts ETH and prints currency. Each branch can handle a single on-chain cryptographic asset and is opened by equity holders. 
 
 Example Ethereum branch:
 
