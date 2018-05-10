@@ -80,6 +80,24 @@ retract_currency() // equity holders call this function with argument 1, 2, or 3
  3 auction bond tokens for currency
 ```
 
+## Comparisons, Criticisms, and Alternatives
+
+There are an emerging class of algorithmic stable currency projects. Each of these systems usually hinge on a 2 token system. One token being the object of stabilization while the other token being the object of risk where the holder assumes liability for negative value in order to gain positive value of the system. This 2 token system proposed by Sams is the essence of most algorithmic based stable currency projects. 
+
+### Basecoin/basis.io 
+
+Basis is a project which has as of May 2018 raised $133m USD. It uses a 
+
+Baseshare tokens are merely investor tokens and serve no use in open market operations of the basis system. They are merely a tool to raise funds for the project (as evidenced by their large and successful funding round). 
+
+### Seigniorage Shares
+
+Seigniorage shres is a seminal paper by Robert Sams in 2014 that describes the famous two token system of shares and coins. Coins being the object of stabilization and shares being the object of 
+
+"I suggest that there needs to be two types of coin: coin that acts like money and coin that acts like shares in the system’s  seigniorage." What is interesting about this statement is that the system that Sams proposes has no seigniorage. There is no actual way for this system to hold assets or any type of seigniorage. Seigniorage is defined as profit made by a government when they issue/sell/loan the currency which they print and bring into existence. The main issue we take with this approach is that there cannot be a token which "acts like shares in the system's seigniorage" if the system is incapable of holding actual seigniorage. This token simply defaults to a future potential of return for an expansion in the system. What is interesting though is that Sams clearly understands that the main attraction of the shares token is the "profit from future coin expansions" but does not address that a system with real seigniorage means that share tokens have substantially different utility. This is because the value of shares would no longer just be the profit of future currency expansions but profit from the increase in value of all assets in the system. This includes pricing in future expansions of currency as well as the assets held within the nework which was bought by currency at previous expansions. 
+
+Other stable currency projects "put the cart before the horse" and attempt to create a stable currency by building tools around it, usually with a single mechanism for retracting the supply of currency. What these projects need to do most is to create the environment and structures in which a stable currency can be printed and thrive. That is, a complete protocol where currency that is printed has an unlimited means of retraction through market operations using different cryptographic assets rather than a single other token. 
+
 ## Discussion 
 
 A decentralized bank which holds only cryptographic assets was not possible before the proliferation of general compute ledgers which created an environment for many different types of on-chain assets. Additionally, advancements in trustless interblockchain/inter-ledger communication was required before a decentralized banking network could hold many assets across different ledgers, all controlled by the bank's equity tokenholders. Additionally, with the practical implementation of atomic swaps and cross-chain trustless state verification, it is possible for the stable bank currency to be fungible across many different legders which it is printed on.  
