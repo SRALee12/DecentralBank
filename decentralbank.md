@@ -9,7 +9,6 @@ We propose a purely permissionless, borderless "world bank" which functions anal
 
 To expand the money supply, any bank branch can print money and auction it off for assets. To contract the money supply, the bank can sell assets, print bonds, or print equity tokens to sell for money. Equity token holders decide the interest rate and when to expand or contract the bank's money supply. The rational, economic goal of this banking network is to accrue the most profitable assets and stabilize its printed currency to reach worldwide ubiquity. 
 
-[comment]: # talk about the bank's charter here
 
 ## Definitions 
 
