@@ -22,7 +22,7 @@ Any ledger which contains a decentral bank branch can fork. In such a case, both
 
 ## Conclusion
 
-Decentral Bank is a complex system of inter-ledger smart contracts which listen to a canonical equity token distribition. When ledgers which contain bank branches fork, both the canonical branch and the forked branch remain under the control of the canonical equity holder distribution. When equity holder tokens 
+Decentral Bank is a complex system of inter-ledger smart contracts which listen to a canonical equity token distribition. When ledgers that contain bank branches fork, both the canonical branch and the forked branch remain under the control of the canonical equity holder distribution. When equity holder token distributions are forked, the forked equity tokens do not control any of the bank branches since bank branch smart contracts contain the root hash of the canonical chain when they are first deployed. The special forking properties of decentral bank are unique to its inter-ledger system. For this reason, it is crucial to understand what types of forks affect canonical chain operations and what types of forks create new decentral bank networks. 
 
 ## References 
 
