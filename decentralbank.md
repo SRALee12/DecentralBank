@@ -56,6 +56,7 @@ Example Ethereum branch:
 reserve_ratio = 20 // 20% of total ETH deposited into this branch must always remain in the contract
 interest_rate = 2 // 2%, the current interest rate paid yearly to depositors of ETH (calculated paid per block)
 bond_interest_rate = 1 // 1%, the current interest rate paid yearly to bond token holders on top of the coupon (calculated per block)
+bank_fee = .2 // .2%, the global transaction fee decentral bank charges for transacting in its currency. The fee is burned.
 
 -----public functions-----
 
