@@ -1,5 +1,5 @@
 # DecentralBank
-a peer-to-peer, permissionless central bank
+a peer-to-peer, permissionless central bank which provides a "monetary consitution" to a stable, depoliticized currency for the global market. 
 
 For overall specifications, read the whitepaper DecentralBank.md. 
 
