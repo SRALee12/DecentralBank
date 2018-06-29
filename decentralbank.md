@@ -20,9 +20,11 @@ To expand the money supply, any bank branch can print money and auction it off f
 
 **Bond:** A debt instrument printed by bank branches which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). Bonds printed at any bank branch print out at the same global rate decided by equity holders.
 
-**Asset-Currency Repo (AC Repo):** A market making service conducted with decentral bank deposited assets to keep the currency price at the desired range of stability. Assets are sold off at the desired price and sell orders of assets for currency act as market-making operations to keep the purchasing power of the currency within the desired stable range.    
+**Asset-Currency Repo (AC Repo):** A market making service conducted with decentral bank deposited assets to keep the currency price at the desired range of stability. Assets are sold off at the desired price and sell orders of assets for currency act as market-making operations.   
 
-**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. Equity holders have governance say on aspects of open market operations in the network through the classical fork choice rule. This means that the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, and which assets to buy when printing new currency can be decided by new hard forks of the network through equity holder consensus.  
+**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. Equity holders have governance say on aspects of open market operations in the network through the classical fork choice rule. This means that the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, and which assets to buy when printing new currency can be decided by new hard forks of the network through equity holder consensus.
+
+**Fork choice rule:** A set of instructions for choosing the canonical, longest chain of blocks of a particular blockchain database. 
 
 ## Overview
 
@@ -31,6 +33,10 @@ A decentral bank is a completely "on-chain" (residing on a distributed ledger pl
 The bank uses deposited assets and equity to expand and contract the money supply to achieve stability of the decentral bank notes it prints. The bank sells deposited assets in a currency repurchase market-making operation to contract the currency supply at any time at the pegged price of the currency. Since depositors have the right to withdraw their asset at any time (like a normal bank), it is prudent to keep verifiable reserve requirements that are programmed into the client software. This way, depositors can transparently audit the network at any time so that the fractional reserve nature of decentral bank is public and auditable. The bank can also print bond tokens which pay out a consistent coupon plus interest. This provides another mechanism to retract the supply of currency by offering riskless future returns denominated in the decentral bank currency. 
 
 ## Technical Specifications
+
+## Fork Choice Rule as Governance
+
+Decentral Bank equity holders control the implicit end-state of the network through their ability to hardfork the network should sufficient social consensus arise among equity token holders. 
 
 ## Comparisons, Criticisms, and Alternatives
 
