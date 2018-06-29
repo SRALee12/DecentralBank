@@ -20,6 +20,8 @@ To expand the money supply, any bank branch can print money and auction it off f
 
 **Bond:** A debt instrument printed by bank branches which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). Bonds printed at any bank branch print out at the same global rate decided by equity holders.
 
+**Asset-Currency Repo (AC Repo):** A market making service conducted with decentral bank deposited assets to keep the currency price at the desired range of stability. Assets are sold off at the desired price and sell orders of assets for currency act as market-making operations to keep the purchasing power of the currency within the desired stable range.    
+
 **Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. Equity holders have governance say on aspects of open market operations in the network through the classical fork choice rule. This means that the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, and which assets to buy when printing new currency can be decided by new hard forks of the network through equity holder consensus.  
 
 ## Overview
