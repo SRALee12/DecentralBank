@@ -5,82 +5,30 @@ sralee@protonmail.com
 
 ## Abstract
 
-We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on distributed ledger networks. Decentral Bank equity holders vote on what actions to perform during open market operations. The bank can accept deposits in cryptographic assets, pay interest to depositors, and print its own cryptographic fiat currency. Depository branches of this world bank are smart contracts on general compute ledger platforms such as Ethereum.
+We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on distributed ledger networks. The bank can accept deposits in cryptographic assets, pay interest to depositors, and print its own cryptographic fiat currency. 
 
-To expand the money supply, any bank branch can print money and auction it off for assets. To contract the money supply, the bank can sell assets, print bonds, or print equity tokens to sell for money. Equity token holders decide the interest rate and when to expand or contract the bank's money supply. The rational, economic goal of this banking network is to accrue the most profitable assets and stabilize its printed currency to reach worldwide ubiquity. 
+To expand the money supply, any bank branch can print money and auction it off for assets. To contract the money supply, the bank sells assets, prints bonds, and/or prints equity tokens to sell for money. The interest rate for deposits and when to expand or contract the bank's money supply is decided dynamically through the network's client software. 
 
 
 ## Definitions 
 
-**Decentral bank:** A network of bank branches that accept deposits, print a stable currency, and conduct open market operations decided by the network's equity holders. 
+**Decentral bank:** A network of bank branches that accept deposits, print a stable currency, and conduct open market operations. 
 
-**Decentral open market operations (DOMO):** The activities that equity holders agree to take which expands or retracts the decentral bank network's currency supply. Activities include changing the interest rate on different deposits, changing the bond interest rate, expanding or contracting the currency supply by buying or selling assets and deposits. 
-
-**Decentral bank branch (DBB):** A smart contract on a general compute ledger (ie: Ethereum) which accepts deposits in an asset (ie: ETH) and can expand or retract the currency supply. 
+**Decentral open market operations (DOMO):** The activities that decentral bank network undertakes to expand or retract the network's currency supply. Activities include changing the interest rate on different deposits, changing the bond interest rate, expanding or contracting the currency supply through asset repurchase of currency. 
 
 **Currency:** A token which serves as a unit of account and medium of exchange printed by decentral bank branches. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes, so that they can be used as practical money. All currency is fungible between different bank branches.   
 
 **Bond:** A debt instrument printed by bank branches which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). Bonds printed at any bank branch print out at the same global rate decided by equity holders.
 
-**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. Equity holders vote on all aspects of open market operations in the network including the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, and which assets to buy when printing new currency. Equity holders can delegate out their voting rights to pools or committees that might be better knowledgeable or run programmatic scripts that vote for different operations on their behalf.  
+**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. Equity holders have governance say on aspects of open market operations in the network through the classical fork choice rule. This means that the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, and which assets to buy when printing new currency can be decided by new hard forks of the network through equity holder consensus.  
 
 ## Overview
 
-A decentral bank is a completely "on-chain" (residing on a distributed ledger platform) network of bank branches that accept deposits in assets and pays interest to depositors in printed currency. Each branch of a bank is a smart contract that resides on a particular distributed ledger/blockchain platform and accepts a variety of deposits and prints currency. The smart contract listens for the current state of other bank branches' smart contracts to trustlessly communicate between branches using atomic swaps and other cross-ledger protocols. 
+A decentral bank is a completely "on-chain" (residing on a distributed ledger platform) network accepts deposits in assets and pays interest to depositors in printed currency. 
 
-The bank uses deposited assets and equity to expand and contract the money supply to achieve stability of the decentral bank notes it prints. Bank equity holders vote on the interest rates paid for deposits of different assets, changing the rates depending on risk and the liabilties of the bank. The bank can sell these assets to contract the currency supply at any time if necessary. Since depositors have the right to withdraw their asset at any time (like a normal bank), it is prudent to keep verifiable reserve requirements that are programmed into the smart contract of each branch's code. This way, depositors can transparently audit the branch at any time so that the fractional reserve nature of each branch is public and auditable. The bank can also print bond tokens which pay out a consistent coupon plus interest agreed by equity holders. This provides another mechanism to retract the supply of currency by offering riskless future returns denominated in the decentral bank currency. 
+The bank uses deposited assets and equity to expand and contract the money supply to achieve stability of the decentral bank notes it prints. The bank sells deposited assets in a currency repurchase market-making operation to contract the currency supply at any time at the pegged price of the currency. Since depositors have the right to withdraw their asset at any time (like a normal bank), it is prudent to keep verifiable reserve requirements that are programmed into the client software. This way, depositors can transparently audit the network at any time so that the fractional reserve nature of decentral bank is public and auditable. The bank can also print bond tokens which pay out a consistent coupon plus interest. This provides another mechanism to retract the supply of currency by offering riskless future returns denominated in the decentral bank currency. 
 
 ## Technical Specifications
-
-Equity holders interact with the equity smart contract by calling the monetary_policy() function to vote for new policy at each voting period X. The function takes 3 arguments. The address variable designates the bank branch the policy is referring to. The currency_policy variable is a positive or negative integer which designates whether the branch should expand (if positive) or retract (if negative) the currency token and by how much. The interest_rate is the interest paid to depositors of that branch's assets. 
-
-Equity holders can also change the bond_rate variable during each voting period X which denotes the interest rate paid to bond holders across all branchs in the network. 
-
-Example Equity holder contract: 
-
-```
-monetary_policy(address, currency_policy, interest_rate)
-
-bond_policy(bond_rate)
-```
-
-In order for the bank's money to be truly fungible, bank branches across all ledgers need to be able to communicate with one another in a purely trustless fashion using atomic swaps and state channel communications. 
-
-A sample pseudo-code Ethereum branch is shown below with comments. This contract accepts ETH and prints currency. Each branch can handle a single on-chain cryptographic asset and is opened by equity holders. 
-
-Example Ethereum branch:
-
-```
------constants-----
- 
-reserve_ratio = 20 // 20% of total ETH deposited into this branch must always remain in the contract
-interest_rate = 2 // 2%, the current interest rate paid yearly to depositors of ETH (calculated paid per block)
-bond_interest_rate = 1 // 1%, the current interest rate paid yearly to bond token holders on top of the coupon (calculated per block)
-bank_fee = .2 // .2%, the global transaction fee decentral bank charges for transacting in its currency. The fee is burned.
-
------public functions-----
-
-
-deposit_ETH() // deposit any amount of ETH
-withdraw_ETH() // withdraw your amount of ETH at any time (provided the bank has enough funds)
-collect_interest() // withdraw your earned interest in currency until the current block
-
------banking functions-----
-
-
-set_interest_rate() // equity holders call this function to increase or decrease interest_rate accordingly 
-set_bond_rate() // equity holders call this function to increase or decrease bond_interest_rate accordingly
-sell_equity_for_ETH() // equity holders call this function to dilute their shares to purchase ETH
-
-expand_currency() // equity holders call this function with argument 1 or 2 and an amount of currency to expand
- 1 auction currency for ETH
- 2 distribute currency pro rata to equity holders
-
-retract_currency() // equity holders call this function with argument 1, 2, or 3 and an amount of currency to retract
- 1 auction ETH for currency
- 2 print new equity and auction for currency
- 3 auction bond tokens for currency
-```
 
 ## Comparisons, Criticisms, and Alternatives
 
