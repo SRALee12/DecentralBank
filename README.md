@@ -3,6 +3,4 @@
 
 For overall specifications, read the whitepaper Decentralbank.md. 
 
-Current work is being done so that Decentral Bank Branch contracts support ETH and EOS ledgers with ETH and EOS as the first 2 assets accepted. Bank branch contract naming convention: {network_name}_{asset_name}_bank_branch
-
-See corresponding folders for deployable smart contracts to each ledger. 
+The core client is based off of a fork of the pyethereum codebase with customized features. 
