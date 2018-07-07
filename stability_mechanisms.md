@@ -33,7 +33,11 @@ Cons: Decentral bonds pay out even if network still needs retracted supply, mean
 
 **Decentral Market Making**
 
+A market making method proposed by the decentral bank system where participants deposit funds (tokens such as ETH) into the bank and are paid interest in the stable currency token. The bank then uses the deposited funds to place market making orders for the stable token at the pegged price range. Interest rates can be adjusted to incentivize more deposits for more market making orders. 
 
+Pros: The more funds in the bank, the larger endowment for market making and more difficult to break the currency peg. Interest rates can be increased to incentivize more deposits. 
+
+Cons: This method is essentially a classical fractional reserve - although it is publicly auditable. Bank runs possible if majority of depositors want their funds back. Some kind of insurance for depositors would be preferable such as insuring all deposits in the stable currency in case of a bank run.  
 
 **Carbon Credit**
 
