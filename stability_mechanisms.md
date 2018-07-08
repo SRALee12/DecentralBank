@@ -1,5 +1,20 @@
 This is an exhaustive list of cryptoeconomic mechanisms currently used for stability in tokenized units of account. 
 
+Structure
+
+**Stability Mechanism Name**
+
+(type of mechanism)
+
+General comments
+
+Pros:
+
+Cons:
+
+Source:
+
+
 **Tokenized IOU Coupons**
 The original stability mechanism by simply holding 1:1 of the pegged asset and simply tokenizing it. Tether is a successful example. 
 
