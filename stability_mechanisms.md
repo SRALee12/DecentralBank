@@ -77,6 +77,14 @@ Cons: Psychological feeling of never-ending dilution of credit tokens since they
 
 **Overcollaterized debt**
 
+(on-chain collateral based)
+
+A loan system proposed most notably by MakerDAO where individuals lock up a larger than par value of assets in the pegged denominated price and create a stable token of lesser quantity which is floated at the desired price due to  
+
+Pros: Trustless by design. Entirely on-chain and auditable. 
+
+Cons: Overcollateralized positions are not efficient. The system is fundamentally The collateral remains locked up and cannot be used for anything useful (such as market making, other loan derivatives etc). Each collateral requires its own price feed/discovery mechanism. 
+
 **Transaction fee burn/sinks**
 
 **Stability fee sinks**
