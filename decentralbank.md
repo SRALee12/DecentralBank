@@ -12,15 +12,15 @@ To expand the money supply, any bank branch can print money and auction it off f
 
 ## Definitions 
 
-**Decentral bank:** A network of bank branches that accept deposits, print a stable currency, and conduct open market operations. 
+**Decentral bank:** A peer-to-peer network which prints a stable currency and conducts a variety of open market operations. 
 
-**Decentral open market operations (DOMO):** The activities that decentral bank network undertakes to expand or retract the network's currency supply. Activities include changing the interest rate on different deposits, changing the bond interest rate, expanding or contracting the currency supply through asset repurchase of currency. 
+**Decentral open market operations (DOMO):** The activities that decentral bank undertakes to expand or retract the network's currency supply. Activities include changing the interest rate on different deposits, changing the bond interest rate, expanding or contracting the currency supply through asset repurchase of currency. Equity holders can implement new stability mechanisms and market operations through hard-fork updates.  
 
-**Currency:** A token which serves as a unit of account and medium of exchange printed by decentral bank branches. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes, so that they can be used as practical money. All currency is fungible between different bank branches.   
+**Currency:** A token which serves as a unit of account and medium of exchange printed by decentral bank. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes, so that they can be used as practical money. All currency is fungible between different bank branches.   
 
-**Bond:** A debt instrument printed by bank branches which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). Bonds printed at any bank branch print out at the same global rate decided by equity holders.
+**Bond:** A debt instrument printed by decentral bank which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). Bonds printed at any bank branch print out at the same global rate which can be adjusted programmatically. 
 
-**Asset-Currency Repo (AC Repo):** A market making service conducted with decentral bank deposited assets to keep the currency price at the desired range of stability. Assets are sold off at the desired price and sell orders of assets for currency act as market-making operations.   
+**Asset-Currency Repo (AC Repo):** A market making service conducted with decentral bank deposited assets to keep the currency price at the desired range of stability. Assets are sold off at the stability price. Sell orders of assets for currency act as market-making operations to remove currency from circulation.    
 
 **Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. Equity holders have governance say on aspects of open market operations in the network through the classical fork choice rule. This means that the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, and which assets to buy when printing new currency can be decided by new hard forks of the network through equity holder consensus.
 
