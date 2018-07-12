@@ -12,7 +12,7 @@ To expand the money supply, any bank branch can print money and auction it off f
 
 ## Definitions 
 
-**Decentral bank:** A peer-to-peer network which prints a stable currency and conducts a variety of open market operations. 
+**Decentral bank:** A peer-to-peer network which prints a stable currency and conducts a variety of trustless, on-chain open market operations. 
 
 **Decentral open market operations (DOMO):** The activities that decentral bank undertakes to expand or retract the network's currency supply. Activities include changing the interest rate on different deposits, changing the bond interest rate, expanding or contracting the currency supply through asset repurchase of currency. Equity holders can implement new stability mechanisms and market operations through hard-fork updates.  
 
@@ -22,9 +22,9 @@ To expand the money supply, any bank branch can print money and auction it off f
 
 **Asset-Currency Repo (AC Repo):** A market making service conducted with decentral bank deposited assets to keep the currency price at the desired range of stability. Assets are sold off at the stability price. Sell orders of assets for currency act as market-making operations to remove currency from circulation.    
 
-**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. Equity holders have governance say on aspects of open market operations in the network through the classical fork choice rule. This means that the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, and which assets to buy when printing new currency can be decided by new hard forks of the network through equity holder consensus.
+**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. The equity tokens are the main token of the decentral bank blockchain. 51% of equity holders create canonical chain consensus. Equity holders have governance say on aspects of open market operations in the network through the classical fork choice rule. This means that the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, which assets to buy when printing new currency, and what algorithms are used to decide the above can be decided by new hard forks of the network through equity holder consensus. 
 
-**Fork choice rule:** A set of instructions for choosing the canonical, longest chain of blocks of a particular blockchain database. 
+**Fork choice rule:** A set of instructions for choosing the canonical, longest chain of blocks of a particular blockchain database. In the decentral bank network, the canonical chain is the chain of blocks which 
 
 ## Overview
 
@@ -37,6 +37,10 @@ The bank uses deposited assets and equity to expand and contract the money suppl
 ## Fork Choice Rule as Governance
 
 Decentral Bank equity holders control the implicit end-state of the network through their ability to hardfork the network should sufficient social consensus arise among equity token holders. 
+
+## Scalable, Plasma Cash Currency 
+
+## Truly Private Currency 
 
 ## Comparisons, Criticisms, and Alternatives
 
