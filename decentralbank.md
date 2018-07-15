@@ -34,11 +34,15 @@ The bank uses deposited assets and equity to expand and contract the money suppl
 
 ## Technical Specifications
 
+The Decentral Bank main network uses Ethereum open source software for a lot of the foundational consensus designs and mechanisms. A fork of the Ethereum core client is the starting point of the Decentral Bank core client with turing complete smart contract functionality disabled. The Decentral Bank core client would run a series of banking contracts on the main network. Essentially, it is a singleton machine implementation of the Ethereum main network where the contracts running are stability mechanisms for the printed currency (and other banking functions). 
+
 ## Fork Choice Rule as Governance
 
-Decentral Bank equity holders control the implicit end-state of the network through their ability to hardfork the network should sufficient social consensus arise among equity token holders. 
+Decentral Bank equity holders control the implicit end-state of the network through their ability to hardfork the canonical chain should sufficient social consensus arise among equity token holders. 
 
 ## Scalable, Plasma Cash Currency 
+
+Decentral Bank should become the world's de facto currency-issuing bank. In such a world, the number of transactions required for the currency would be orders of magnitude larger than current distributed ledger can handle. For this reason, the Plasma Cash framework proposed by the Ethereum foundation would be an ideal scaling solution for purely fungible currency tokens. Secondly, "plasma chains" can be run by institutions with sufficient merkle proofs to the Decentral Bank main network. 
 
 ## Truly Private Currency 
 
