@@ -5,7 +5,7 @@ sralee@protonmail.com
 
 ## Abstract
 
-We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on a distributed ledger network. The bank can accept deposits in cryptographic assets, pay interest to depositors, print and sell bonds, print equity, and print its own cryptographic fiat currency. These mechanisms allow for the bank to manipulate the money supply which it prints to keep it within a stable price range. 
+We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on a distributed ledger network. The bank can accept deposits in cryptographic assets, pay interest to depositors, print and sell bonds, print equity, and print its own cryptographic fiat currency. These mechanisms allow for the bank to manipulate the printed money supply to keep it within a stable price range. 
 
 Decentral bank's many stability mechanisms help perform the most diverse range of monetary policy possible on its printed currency tokens which act as a stable unit of account, store of value, and medium of exchange. 
 
