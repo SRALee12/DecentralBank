@@ -5,9 +5,9 @@ sralee@protonmail.com
 
 ## Abstract
 
-We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on distributed ledger networks. The bank can accept deposits in cryptographic assets, pay interest to depositors, and print its own cryptographic fiat currency. 
+We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on a distributed ledger network. The bank can accept deposits in cryptographic assets, pay interest to depositors, print and sell bonds, print equity, and print its own cryptographic fiat currency. These mechanisms allow for the bank to manipulate the money supply which it prints to keep it within a stable price range. 
 
-To expand the money supply, any bank branch can print money and auction it off for assets. To contract the money supply, the bank sells assets, prints bonds, and/or prints equity tokens to sell for money. The interest rate for deposits and when to expand or contract the bank's money supply is decided dynamically through the network's client software. 
+Decentral bank's many stability mechanisms help perform the most diverse range of monetary policy possible on its printed currency tokens which act as a stable unit of account, store of value, and medium of exchange. 
 
 
 ## Definitions 
@@ -24,11 +24,15 @@ To expand the money supply, any bank branch can print money and auction it off f
 
 **Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. The equity tokens are the main token of the decentral bank blockchain. 51% of equity holders create canonical chain consensus. Equity holders have governance say on aspects of open market operations in the network through the classical fork choice rule. This means that the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, which assets to buy when printing new currency, and what algorithms are used to decide the above can be decided by new hard forks of the network through equity holder consensus. 
 
-**Fork choice rule:** A set of instructions for choosing the canonical, longest chain of blocks of a particular blockchain database. In the decentral bank network, the canonical chain is the chain of blocks which 
+**Stability mechanism:** A particular scheme used to exert monetary policy so that currency tokens remain stable. Usually a stability mechanism is a scheme for either contracting the currency supply, backing the currency tokens with collateral, or market making the currency at a defined price range. 
+
+**Fork choice rule:** A set of instructions for choosing the canonical, longest chain of blocks of a particular blockchain database. In the decentral bank network, the canonical chain is the chain of blocks which the Byzantine method has defined. 
 
 ## Overview
 
-A decentral bank is a completely "on-chain" (residing on a distributed ledger platform) network accepts deposits in assets and pays interest to depositors in printed currency. 
+A decentral bank is a completely "on-chain" (residing on a distributed ledger platform) network which employs a large number of stability mechanisms to exert maximum leverage on manipulating the currency supply which it prints. 
+
+accepts deposits in assets and pays interest to depositors in printed currency. 
 
 The bank uses deposited assets and equity to expand and contract the money supply to achieve stability of the decentral bank notes it prints. The bank sells deposited assets in a currency repurchase market-making operation to contract the currency supply at any time at the pegged price of the currency. Since depositors have the right to withdraw their asset at any time (like a normal bank), it is prudent to keep verifiable reserve requirements that are programmed into the client software. This way, depositors can transparently audit the network at any time so that the fractional reserve nature of decentral bank is public and auditable. The bank can also print bond tokens which pay out a consistent coupon plus interest. This provides another mechanism to retract the supply of currency by offering riskless future returns denominated in the decentral bank currency. 
 
