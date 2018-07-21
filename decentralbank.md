@@ -38,7 +38,7 @@ The Decentral Bank main network uses Ethereum open source software for a lot of 
 
 ## Fork Choice Rule as Governance
 
-Decentral Bank equity holders control the implicit end-state of the network through their ability to hardfork the canonical chain should sufficient social consensus arise among equity token holders. 
+Decentral Bank equity holders control the implicit end-state of the network through their ability to hardfork the canonical chain should sufficient social consensus arise among equity token holders. Since certain stability mechanisms used by the decentral bank network hold cryptographic assets, the canonical chain retains control of such stored assets and thus keeps the network effect. 
 
 ## Scalable, Plasma Cash Currency 
 
