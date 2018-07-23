@@ -34,6 +34,14 @@ A decentral bank is a completely "on-chain" (residing on a distributed ledger pl
 
 Decentral bank uses a number of policies which allow for expansion and retraction of the currency tokens so that the price of the currency remains at a constant bound. Unlike other stable token schemes, decentral bank employs multiple market operations, similar to a real central bank. However, unlike a classical central bank, the market operations are algorithmically fair and transparent since they take place completely on the blockchain itself with no off-chain component needed.  
 
+The bank has 3 main stability mechanisms used to retract currency supply. Firstly, the bank continuously sells decentral bank bond tokens purchasable with currency tokens. This destroys the currency tokens and pays back the holder of the bond token a coupon rate until maturity of the bond. This bond auction is always algorithmically available to purchasers and the network software adjusts the maturity date 
+
+Secondly, the network auctions off currency for certain assets on different networks using cross-chain communication and holds those assets in smart contracts on their respective networks. For example, decentral bank could accept ETH on the Ethereum main network. 
+
+The type of assets that decentral bank can accept can be changed with a hard fork update to the client software which means 51% of the staking tokens (equity tokens) must accept such an update. 
+
+Lastly, decentral bank can auction of newly created equity tokens for currency to take currency out of circulation. This is the final stability mechanism employed by decentral bank. Equity token auctions would be algorithmically activiated if a large amount of currency must be retracted from the circulating supply in a certain time period. 
+
 The bank uses deposited assets and equity to expand and contract the money supply to achieve stability of the decentral bank notes it prints. The bank sells deposited assets in a currency repurchase market-making operation to contract the currency supply at any time at the pegged price of the currency. Since depositors have the right to withdraw their asset at any time (like a normal bank), it is prudent to keep verifiable reserve requirements that are programmed into the client software. This way, depositors can transparently audit the network at any time so that the fractional reserve nature of decentral bank is public and auditable. The bank can also print bond tokens which pay out a consistent coupon plus interest. This provides another mechanism to retract the supply of currency by offering riskless future returns denominated in the decentral bank currency. 
 
 ## Technical Specifications
