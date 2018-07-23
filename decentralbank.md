@@ -22,7 +22,7 @@ Decentral bank's many stability mechanisms help perform the most diverse range o
 
 **Asset-Currency Repo (AC Repo):** A market making service conducted with decentral bank deposited assets to keep the currency price at the desired range of stability. Assets are sold off at the stability price. Sell orders of assets for currency act as market-making operations to remove currency from circulation.    
 
-**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. The equity tokens are the main token of the decentral bank blockchain. 51% of equity holders create canonical chain consensus. Equity holders have governance say on aspects of open market operations in the network through the classical fork choice rule. This means that the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, which assets to buy when printing new currency, and what algorithms are used to decide the above can be decided by new hard forks of the network through equity holder consensus. 
+**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. The equity tokens are a staking token and the main unit of the decentral bank blockchain. 51% of equity holders create canonical chain consensus. Equity holders have governance say on aspects of open market operations in the network through the fork choice consensus process. This means that the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, which assets to buy when printing new currency, and what algorithms are used to decide the above can be decided by new hard forks of the network through equity holder consensus. 
 
 **Stability mechanism:** A particular scheme used to exert monetary policy so that currency tokens remain stable. Usually a stability mechanism is a scheme for either contracting the currency supply, backing the currency tokens with collateral, or market making the currency at a defined price range. 
 
@@ -32,7 +32,7 @@ Decentral bank's many stability mechanisms help perform the most diverse range o
 
 A decentral bank is a completely "on-chain" (residing on a distributed ledger platform) network which employs a large number of stability mechanisms to exert maximum leverage on manipulating the currency supply which it prints. 
 
-Decentral bank uses a number of policies which allow for expansion and retraction of the currency tokens so that the price of the currency remains at a constant bound. Unlike other stable token schemes, decentral bank employs multiple market operations, similar to a real central bank. However, unlike a classical central bank, the market operations are algorithmically fair and transparent since they take place completely on the blockchain itself.  
+Decentral bank uses a number of policies which allow for expansion and retraction of the currency tokens so that the price of the currency remains at a constant bound. Unlike other stable token schemes, decentral bank employs multiple market operations, similar to a real central bank. However, unlike a classical central bank, the market operations are algorithmically fair and transparent since they take place completely on the blockchain itself with no off-chain component needed.  
 
 The bank uses deposited assets and equity to expand and contract the money supply to achieve stability of the decentral bank notes it prints. The bank sells deposited assets in a currency repurchase market-making operation to contract the currency supply at any time at the pegged price of the currency. Since depositors have the right to withdraw their asset at any time (like a normal bank), it is prudent to keep verifiable reserve requirements that are programmed into the client software. This way, depositors can transparently audit the network at any time so that the fractional reserve nature of decentral bank is public and auditable. The bank can also print bond tokens which pay out a consistent coupon plus interest. This provides another mechanism to retract the supply of currency by offering riskless future returns denominated in the decentral bank currency. 
 
@@ -49,6 +49,8 @@ Decentral Bank equity holders control the implicit end-state of the network thro
 Decentral Bank should become the world's de facto currency-issuing bank. In such a world, the number of transactions required for the currency would be orders of magnitude larger than current distributed ledger can handle. For this reason, the Plasma Cash framework proposed by the Ethereum foundation would be an ideal scaling solution for purely fungible currency tokens. Secondly, "plasma chains" can be run by institutions with sufficient merkle proofs to the Decentral Bank main network. 
 
 ## Truly Private Currency 
+
+Since decentral bank currency is a fungible token, it would be possible to integrate distributed ledger privacy features such as zero knowledge proofs which would allow for any user to exchange stable currency tokens without revealing their identity. Such zero knowledge proofs without a "set up" phase are still in development and are not widely available, but can be incoporated into the client software once software has advanced. 
 
 ## Transaction Fees
 
