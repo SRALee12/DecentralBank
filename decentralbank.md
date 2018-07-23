@@ -5,7 +5,7 @@ sralee@protonmail.com
 
 ## Abstract
 
-We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on a distributed ledger network. The bank can accept deposits in cryptographic assets, pay interest to depositors, print and sell bonds, print equity, and print its own cryptographic fiat currency. These mechanisms allow for the bank to manipulate the printed money supply to keep it within a stable price range. 
+We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on a distributed ledger network. The bank can accept deposits in cryptographic assets, pay interest to depositors, print and sell bonds, print equity, and print its own cryptographic fiat currency. These services allow for the bank to manipulate the printed money supply to keep it within a stable price range. 
 
 Decentral bank's many stability mechanisms help perform the most diverse range of monetary policy possible on its printed currency tokens which act as a stable unit of account, store of value, and medium of exchange. 
 
@@ -32,7 +32,7 @@ Decentral bank's many stability mechanisms help perform the most diverse range o
 
 A decentral bank is a completely "on-chain" (residing on a distributed ledger platform) network which employs a large number of stability mechanisms to exert maximum leverage on manipulating the currency supply which it prints. 
 
-accepts deposits in assets and pays interest to depositors in printed currency. 
+Decentral bank uses a number of policies which allow for expansion and retraction of the currency tokens so that the price of the currency remains at a constant bound. Unlike other stable token schemes, decentral bank employs multiple market operations, similar to a real central bank. However, unlike a classical central bank, the market operations are algorithmically fair and transparent since they take place completely on the blockchain itself.  
 
 The bank uses deposited assets and equity to expand and contract the money supply to achieve stability of the decentral bank notes it prints. The bank sells deposited assets in a currency repurchase market-making operation to contract the currency supply at any time at the pegged price of the currency. Since depositors have the right to withdraw their asset at any time (like a normal bank), it is prudent to keep verifiable reserve requirements that are programmed into the client software. This way, depositors can transparently audit the network at any time so that the fractional reserve nature of decentral bank is public and auditable. The bank can also print bond tokens which pay out a consistent coupon plus interest. This provides another mechanism to retract the supply of currency by offering riskless future returns denominated in the decentral bank currency. 
 
@@ -49,6 +49,10 @@ Decentral Bank equity holders control the implicit end-state of the network thro
 Decentral Bank should become the world's de facto currency-issuing bank. In such a world, the number of transactions required for the currency would be orders of magnitude larger than current distributed ledger can handle. For this reason, the Plasma Cash framework proposed by the Ethereum foundation would be an ideal scaling solution for purely fungible currency tokens. Secondly, "plasma chains" can be run by institutions with sufficient merkle proofs to the Decentral Bank main network. 
 
 ## Truly Private Currency 
+
+## Transaction Fees
+
+Movement of currency tokens, bond tokens, and equity on the decentral bank network requires transaction fees. In a proof of stake based consensus mechanism, the equity tokens are the staking token and take part in the block proposal and finality process. Thus, equity holders that stake their tokens recieve the revenue accrued from transaction fees from users. 
 
 ## Comparisons, Criticisms, and Alternatives
 
