@@ -9,6 +9,7 @@ We propose a purely permissionless, borderless "world bank" which functions anal
 
 Decentral bank's many stability mechanisms help perform the most diverse range of monetary policy possible on its printed currency tokens which act as a stable unit of account, store of value, and medium of exchange. 
 
+Decentral bank would help separate bank and state by being the first global currency-issuing central bank owned by no particular country. 
 
 ## Definitions 
 
