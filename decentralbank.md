@@ -13,15 +13,15 @@ Decentral bank would help separate bank and state by being the first global curr
 
 **Decentral bank:** A peer-to-peer network which prints a stable currency and conducts a variety of trustless, on-chain open market operations.  
 
-**Currency:** A token which serves as a unit of account and medium of exchange printed by decentral bank. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes, so that they can be used as practical money. All currency is fungible between different bank branches.   
+**Currency:** A token which serves as a unit of account and medium of exchange printed by decentral bank. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes, so that they can be used as practical money. All currency is fungible.   
 
-**Bond:** A debt instrument printed by decentral bank which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). Bonds printed at any bank branch print out at the same global rate which can be adjusted programmatically.  
+**Bond:** A debt instrument printed by decentral bank which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon) to its holder. Bonds printed at any bank branch print out at the same global rate which can be adjusted programmatically.  
 
-**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. The equity tokens are a staking token and the main unit of the decentral bank blockchain. 51% of equity holders create canonical chain consensus. Equity holders have governance say on aspects of open market operations in the network through the fork choice consensus process. This means that the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, which assets to buy when printing new currency, and what algorithms are used to decide the above can be decided by new hard forks of the network through equity holder consensus. 
+**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. The equity tokens are a staking token and the main unit of the decentral bank blockchain. 51% of equity holders create canonical chain consensus. Equity holders have governance say on aspects of open market operations in the network through the fork choice consensus process. This means that the global bond rate, when to expand or contract the currency supply, which assets to buy when printing new currency, and what algorithms are used to decide the above can be decided by new hard forks of the network through equity holder consensus. 
 
 **Stability mechanism:** A particular scheme used to exert monetary policy so that currency tokens remain stable. Usually a stability mechanism is a scheme for either contracting the currency supply, backing the currency tokens with collateral, or market making the currency at a defined price range. 
 
-**Fork choice rule:** A set of instructions for choosing the canonical, longest chain of blocks of a particular blockchain database. In the decentral bank network, the canonical chain is the chain of blocks which the Byzantine method has defined. 
+**Fork choice rule:** A set of instructions for choosing the canonical chain of blocks of a particular blockchain database. In the decentral bank network, the canonical chain is the chain of blocks defined by the proof of stake method which decentral equity tokens partake in. 
 
 ## Overview
 
