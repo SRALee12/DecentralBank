@@ -5,23 +5,17 @@ sralee@protonmail.com
 
 ## Abstract
 
-We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on a distributed ledger network. The bank can accept deposits in cryptographic assets, pay interest to depositors, print and sell bonds, print equity, and print its own cryptographic fiat currency. These services allow for the bank to manipulate the printed money supply to keep it within a stable price range. 
+We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on a distributed ledger network. Decentral bank uniquely offers multiple stability mechanisms to enact monetary policy on its issued currency tokens. Each stability mechanism uniquely decouples different volatility and investment risk the decentral bank network has a multitude of ways for both expanding and contracting currency supply.   
 
-Decentral bank's many stability mechanisms help perform the most diverse range of monetary policy possible on its printed currency tokens which act as a stable unit of account, store of value, and medium of exchange. 
-
-Decentral bank would help separate bank and state by being the first global currency-issuing central bank owned by no particular country. 
+Decentral bank would help separate bank and state by being the first global currency-issuing central bank owned by no particular country, entity, or group. 
 
 ## Definitions 
 
-**Decentral bank:** A peer-to-peer network which prints a stable currency and conducts a variety of trustless, on-chain open market operations. 
-
-**Decentral open market operations (DOMO):** The activities that decentral bank undertakes to expand or retract the network's currency supply. Activities include changing the interest rate on different deposits, changing the bond interest rate, expanding or contracting the currency supply through asset repurchase of currency. Equity holders can implement new stability mechanisms and market operations through hard-fork updates.  
+**Decentral bank:** A peer-to-peer network which prints a stable currency and conducts a variety of trustless, on-chain open market operations.  
 
 **Currency:** A token which serves as a unit of account and medium of exchange printed by decentral bank. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes, so that they can be used as practical money. All currency is fungible between different bank branches.   
 
-**Bond:** A debt instrument printed by decentral bank which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). Bonds printed at any bank branch print out at the same global rate which can be adjusted programmatically. 
-
-**Asset-Currency Repo (AC Repo):** A market making service conducted with decentral bank deposited assets to keep the currency price at the desired range of stability. Assets are sold off at the stability price. Sell orders of assets for currency act as market-making operations to remove currency from circulation.    
+**Bond:** A debt instrument printed by decentral bank which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon). Bonds printed at any bank branch print out at the same global rate which can be adjusted programmatically.  
 
 **Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. The equity tokens are a staking token and the main unit of the decentral bank blockchain. 51% of equity holders create canonical chain consensus. Equity holders have governance say on aspects of open market operations in the network through the fork choice consensus process. This means that the interest rate paid out to depositors of different assets, the global bond rate, when to expand or contract the currency supply, which assets to buy when printing new currency, and what algorithms are used to decide the above can be decided by new hard forks of the network through equity holder consensus. 
 
@@ -43,7 +37,6 @@ The type of assets that decentral bank can accept can be changed with a hard for
 
 Lastly, decentral bank can auction of newly created equity tokens for currency to take currency out of circulation. This is the final stability mechanism employed by decentral bank. Equity token auctions would be algorithmically activiated if a large amount of currency must be retracted from the circulating supply in a certain time period. 
 
-The bank uses deposited assets to contract the money supply to achieve stability of the decentral bank notes it prints. The bank sells deposited assets in a currency repurchase market-making operation to contract the currency supply at any time at the pegged price range of the currency. Since depositors have the right to withdraw their asset at any time (like a normal bank), it is prudent to keep verifiable reserve requirements that are programmed into the client software. This way, depositors can transparently audit the network at any time so that the fractional reserve nature of decentral bank is public and auditable. 
 
 ## Technical Specifications
 
@@ -89,11 +82,6 @@ Not only is this not how a traditional bond functions, it is intentionally (or m
 
 Basis dubs itself as a "stable cryptocurrency with an algorithmic central bank." Basis is more akin to a currency with an empty central bank with no way to accrue a balance sheet of assets. The Basis scheme imitates a central bank with zero options when conducting open market operations but to sell bonds (which as we discussed above is not really a bond). Essentially, the basis system might seem similar to central banking on a cursory level, but it could not be farther from. 
 
-## Discussion 
-
-A decentralized bank which holds only cryptographic assets was not possible before the proliferation of general compute ledgers which created an environment for many different types of on-chain assets. Additionally, advancements in trustless interblockchain/inter-ledger communication was required before a decentralized banking network could hold many assets across different ledgers, all controlled by the bank's equity tokenholders. Additionally, with the practical implementation of atomic swaps and cross-chain trustless state verification, it is possible for the stable bank currency to be fungible across many different legders which it is printed on.  
-
-Uncompromosing censorship resistance is the defining characteristic of this network. The cryptographic technology used to produce this peer-to-peer financial network would need to be continuously updated to remain on the bleeding-edge so as to supercede nation-state level regulation and control in order for the system to produce a world-scale banking market. Otherwise, its chief utility proposition is dubious compared to centralized, nationalized central banking systems. 
 
 ## Conclusion
 
