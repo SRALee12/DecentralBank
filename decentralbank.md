@@ -5,9 +5,9 @@ sralee@protonmail.com
 
 ## Abstract
 
-We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on a distributed ledger network. Decentral bank uniquely offers multiple stability mechanisms to enact monetary policy on its issued currency tokens. Each stability mechanism uniquely decouples different volatility and investment risk the decentral bank network has a multitude of ways for both expanding and contracting currency supply.   
+We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on a distributed ledger network. Decentral bank uniquely offers multiple stability mechanisms to enact monetary policy on its issued currency tokens. Each stability mechanism uniquely decouples different volatility and investment risk allowing for a system of credit, debt, asset backing, bond investment, and equity investment opportunities for creating a stable currency. This all allows the decentral bank network a multitude of ways for both expanding and contracting currency supply.   
 
-Decentral bank would help separate bank and state by being the first global currency-issuing central bank owned by no particular country, entity, or group. 
+Decentral bank could help separate bank and state by being the first global currency-issuing central bank owned by no particular country, entity, or group. 
 
 ## Definitions 
 
