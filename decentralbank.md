@@ -5,19 +5,18 @@ sralee@protonmail.com
 
 ## Abstract
 
-We propose a purely permissionless, borderless "world bank" which functions analogously to a central bank and conducts all its operations purely on a distributed ledger network. Decentral bank uniquely offers multiple stability mechanisms to enact monetary policy on its issued currency tokens. Each stability mechanism uniquely decouples different volatility and investment risk allowing for a system of credit, debt, asset backing, bond investment, and equity investment opportunities for creating a stable currency. This all allows the decentral bank network a multitude of ways for both expanding and contracting currency supply.   
+Current stablility-centric cryptocurrency projects focus on one central mechanism within the network to control the purchasing power of the stable token. Usually this involves a method to control the expansion or retraction of a stable currency unit through offering of a volatile asset that has the potential for upside and downside of the network. Decentral bank uniquely offers multiple stability mechanisms to enact monetary policy on its issued currency tokens. Each stability mechanism uniquely decouples different volatility and investment risk allowing for a system of credit, debt, asset backing, bond investment, and equity investment opportunities for creating a stable currency. This allows the decentral bank network a multitude of ways for both expanding and contracting currency supply as well as backing the currency with assets, credit, and debt - all in a decentralized and trustless network.  
 
-Decentral bank could help separate bank and state by being the first global currency-issuing central bank owned by no particular country, entity, or group. 
 
 ## Definitions 
 
-**Decentral bank:** A peer-to-peer network which prints a stable currency and conducts a variety of trustless, on-chain open market operations.  
+**Decentral bank:** A peer-to-peer network which prints a stable currency and conducts a variety of trustless, on-chain open market operations through different algorithmic stability mechanisms.  
 
 **Currency:** A token which serves as a unit of account and medium of exchange printed by decentral bank. The network expands and contracts the currency supply to keep the currency at a stable purchasing power, similar to classical banknotes, so that they can be used as practical money. All currency is fungible.   
 
-**Bond:** A debt instrument printed by decentral bank which can be purchased with currency. Branches print bonds to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon) to its holder. Bonds printed at any bank branch print out at the same global rate which can be adjusted programmatically.  
+**Bond:** A debt instrument printed by decentral bank which can be purchased with currency. Bonds are printed to retract the currency supply. The bond pays out a denominated amount at a fixed interval (the coupon) to its holder.
 
-**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. The equity tokens are a staking token and the main unit of the decentral bank blockchain. 51% of equity holders create canonical chain consensus. Equity holders have governance say on aspects of open market operations in the network through the fork choice consensus process. This means that the global bond rate, when to expand or contract the currency supply, which assets to buy when printing new currency, and what algorithms are used to decide the above can be decided by new hard forks of the network through equity holder consensus. 
+**Decentral equity:** A token in the decentral bank network which gives right of proportional ownership to holders. The equity tokens the base unit of the decentral bank blockchain. Equity holders have governance say by partaking in the consensus method of the chain. Equity tokens can be printed in exchange for currency to retract supply. Equity holders can decide how to allocate the transaction fees of the network. 
 
 **Stability mechanism:** A particular scheme used to exert monetary policy so that currency tokens remain stable. Usually a stability mechanism is a scheme for either contracting the currency supply, backing the currency tokens with collateral, or market making the currency at a defined price range. 
 
@@ -25,17 +24,17 @@ Decentral bank could help separate bank and state by being the first global curr
 
 ## Overview
 
-A decentral bank is a completely "on-chain" (residing on a distributed ledger platform) network which employs a large number of stability mechanisms to exert maximum leverage on manipulating the currency supply which it prints. Decentral bank is novel in a number of ways compared to current "stablecoin" and stability-focused cryptocurrency projects. Firstly, decentral bank separates risks 
+A decentral bank is a completely "on-chain" (residing on a distributed ledger platform) network which employs a large number of stability mechanisms to exert maximum leverage on manipulating the currency supply which it prints. Decentral bank is novel in a number of ways compared to current "stablecoin" and stability-focused cryptocurrency projects. Firstly, decentral bank separates risks so that there are multiple volatile assets in the system which are able to exert different monetary policy.
 
-Decentral bank uses a number of policies which allow for expansion and retraction of the currency tokens so that the price of the currency remains at a constant bound. Unlike other stable token schemes, decentral bank employs multiple market operations, similar to a real central bank. However, unlike a classical central bank, the market operations are algorithmically fair and transparent since they take place completely on the blockchain itself with no off-chain component needed.  
+The decentral bank network uses multiple modules that serve different functions in providing stability for the currency unit of the network. 
 
-The bank has 3 main stability mechanisms used to retract currency supply. Firstly, the bank continuously sells decentral bank bond tokens purchasable with currency tokens. This destroys the currency tokens and pays back the holder of the bond token a coupon rate until maturity of the bond. This bond auction is always algorithmically available to purchasers and the network software adjusts the coupon rate and maturity date making the bonds more enticing as investments if necessary.  
+The bank has 3 main stability mechanisms used to retract currency supply. Firstly, the bank continuously sells decentral bank bond tokens purchasable with currency tokens. This destroys the currency tokens and pays back the holder of the bond token a coupon rate until maturity of the bond. This bond auction is always algorithmically available to purchasers and the network software adjusts the coupon rate and maturity date making the bonds more enticing as investments if necessary.
 
-Secondly, the network auctions off currency for certain assets on different networks using cross-chain communication and holds those assets in smart contracts on their respective networks. For example, decentral bank could accept ETH on the Ethereum main network. 
+Secondly, the network auctions off currency for certain assets on different networks using cross-chain communication and holds those assets in smart contracts on their respective networks. For example, decentral bank could accept ETH on the Ethereum main network.
 
-The type of assets that decentral bank can accept can be changed with a hard fork update to the client software which means 51% of the staking tokens (equity tokens) must accept such an update. 
+The type of assets that decentral bank can accept can be changed with a hard fork update to the client software which means 51% of the staking tokens (equity tokens) must accept such an update.
 
-Lastly, decentral bank can auction of newly created equity tokens for currency to take currency out of circulation. This is the final stability mechanism employed by decentral bank. Equity token auctions would be algorithmically activiated if a large amount of currency must be retracted from the circulating supply in a certain time period. 
+Lastly, decentral bank can auction of newly created equity tokens for currency to take currency out of circulation. This is the final stability mechanism employed by decentral bank. Equity token auctions would be algorithmically activated if a large amount of currency must be retracted from the circulating supply in a certain time period.
 
 
 ## Technical Specifications
