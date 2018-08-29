@@ -37,9 +37,30 @@ The type of assets that decentral bank can accept can be changed with a hard for
 Lastly, decentral bank can auction of newly created equity tokens for currency to take currency out of circulation. This is the final stability mechanism employed by decentral bank. Equity token auctions would be algorithmically activated if a large amount of currency must be retracted from the circulating supply in a certain time period.
 
 
-## Technical Specifications
+## Stability Mechanisms 
 
-The Decentral Bank main network uses Ethereum open source software for a lot of the foundational consensus designs, client software, and game theoretic mechanisms. A fork of the Ethereum core client is the starting point of the Decentral Bank core client with turing complete smart contract functionality disabled. The Decentral Bank core client would run a series of banking contracts on the main network. Essentially, it is a singleton machine implementation of the Ethereum main network where the contracts running are stability mechanisms for the printed currency (and other banking functions). 
+### Collateralized Debt Mechanism
+
+The Collateralized Debt Mechanism (CDM) allows anyone to send the decentral bank network  
+
+### Bond Mechanism
+
+The bond mechanism works as a classic bond auction. Bond tokens are printed and auctioned for currency in a reverse Dutch auction every T time period. To increase retractionary monetary policy through the bond mechanism, the network increases the interest rate of the bond tokens by a certain denominated amount.  
+
+Holding a bond token pays out the holder a coupon rate in currency until the maturation of the bond. Bond tokens with the same maturation date and interest rate are fungible.
+
+
+### Equity Mechanism
+
+The equity mechanism prints new equity tokens and auctions them for currency in a reverse Dutch auction every R time period. All equity tokens are fungible with one another. The more equity tokens that are printed and auctioned for currency, the more retractionary policy on the currency tokens.
+
+### Market Making Mechanism
+
+The market making mechanism takes assets within the decentral bank network's smart contracts and creates buy orders for currency at the stability price range.
+
+### Fractional Reserve Mechanism
+
+The Fractional Reserve Mechanism (FRM) is a mechanism which allows the decentral bank network to auction of currency for assets.
 
 ## Fork Choice Rule as Governance
 
