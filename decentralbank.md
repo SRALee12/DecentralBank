@@ -66,6 +66,10 @@ The Fractional Reserve Mechanism (FRM) is a mechanism which allows the decentral
 
 Decentral Bank equity holders control the implicit end-state of the network through their ability to hardfork the canonical chain should sufficient social consensus arise among equity token holders. Since certain stability mechanisms used by the decentral bank network hold cryptographic assets, the canonical chain retains control of such stored assets and thus keeps the network effect. 
 
+## Mechanism Interactions
+
+Because multiple stability mechanisms exist within the network, their interactions with each other are important in 
+
 ## Scalable, Plasma Cash Currency 
 
 Decentral Bank should become the world's de facto currency-issuing bank. In such a world, the number of transactions required for the currency would be orders of magnitude larger than current distributed ledger can handle. For this reason, the Plasma Cash framework proposed by the Ethereum foundation would be an ideal scaling solution for purely fungible currency tokens. Secondly, "plasma chains" can be run by institutions with sufficient merkle proofs to the Decentral Bank main network. 
